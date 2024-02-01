@@ -1,0 +1,56 @@
+.home{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  position: relative;
+  border: none;
+}
+.home .content{
+  flex: 1 1 40rem;
+  padding-top: 6.5rem;
+}
+.home .content h3{
+  font-size: 6rem; 
+  color: var(--black);
+}
+.home .content h3 span{
+  color: var(--orange);
+}
+.home .content p{
+  font-size: 1.7rem;
+  color: var(--light-color);
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+.home .image{
+  flex: 1 1 40rem;
+}
+.home .image img{
+  width: 100%;
+  padding: 4rem;
+}
+section{
+  padding: 3rem 7%;
+}
+.custom-shape-divider-bottom-1706770353 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1706770353 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 105px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1706770353 .shape-fill {
+  fill: var(--pink);
+}

@@ -1,0 +1,40 @@
+:root{
+  --orange:#f9ba60;
+  --pink:#e9768f;
+  --black:#1d1c1c;
+  --white:#fff;
+  --light-color:#666;
+  --box-shadow:0 .5rem 01.5rem rgba(0,0,0,0.1);
+  
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; padding: 0;
+  box-sizing:border-box; 
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.heading{
+  font-size: 4rem;
+  color: var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 6rem;
+}
+.heading span{
+  color: var(--orange);
+  text-transform: uppercase;
+}
+section{
+  padding: 3rem 7%;
+}
+
